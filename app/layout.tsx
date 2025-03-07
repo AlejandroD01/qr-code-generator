@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
         <link rel="icon" href="./favicon.ico" />
       </head>
       <body className={inter.className}>{children}</body>
