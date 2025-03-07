@@ -280,7 +280,7 @@ export function QRCodeGenerator() {
                     Download
                   </Button>
 
-                  {navigator.share && (
+                  {typeof navigator.share === "function" && (
                     <Button onClick={handleShare} variant="outline" className="flex items-center gap-2">
                       <Share2 className="h-4 w-4" />
                       Share

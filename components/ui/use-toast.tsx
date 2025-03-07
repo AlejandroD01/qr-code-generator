@@ -1,11 +1,13 @@
 "use client"
 
-import { useState, useCallback } from "react"
+import React, { useState, useCallback } from "react"
+import { JSX } from "react"
 
 export type ToastProps = {
   title?: string
   description?: string
   variant?: "default" | "destructive"
+  id?: number
 }
 
 type ToastFunction = (props: ToastProps) => void
